@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+    <table><form name="frm">
+        <tr><td colspan="4"><input type="text" name="textfield"></td></tr>
+        <tr>
+            <td><input type="button" value="(" onclick="BOpen()"></td>
+            <td><input type="button" value=")" onclick="BClose()"></td>
+            <td><input type="button" value="⌫" onclick="BackSpace()"></td>
+            <td><input type="button" value="AC" onclick="Clear()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" onclick="Seven()"></td>
+            <td><input type="button" value="8" onclick="Eight()"></td>
+            <td><input type="button" value="9" onclick="Nine()"></td>
+            <td><input type="button" value="÷" onclick="Div()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" onclick="Four()"></td>
+            <td><input type="button" value="5" onclick="Five()"></td>
+            <td><input type="button" value="6" onclick="Six()"></td>
+            <td><input type="button" value="X" onclick="Mul()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" onclick="One()"></td>
+            <td><input type="button" value="2" onclick="Two()"></td>
+            <td><input type="button" value="3" onclick="Three()"></td>
+            <td><input type="button" value="-" onclick="Sub()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="." onclick="Decimal()"></td>
+            <td><input type="button" value="0" onclick="Zero()"></td>
+            <td><input type="button" value="=" onclick="ShowResult()"></td>
+            <td><input type="button" value="+" onclick="Add()"></td>
+        </tr>
+    </form></table>
+</body>
+</html>
